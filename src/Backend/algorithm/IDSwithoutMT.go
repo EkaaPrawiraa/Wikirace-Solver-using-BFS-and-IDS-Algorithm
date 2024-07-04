@@ -69,7 +69,6 @@ func DFS(currentURL, targetURL string, depth int, visited map[string]bool, paths
 // akan mengeluarkan nil, jumlah artikel yang diperiksa, 0, durasi pencarian
 func IDS(startURL, targetURL string) ([] string, int, int, string) {
 	startTime := time.Now()
-	targetURL = "https:/en.wikipedia.org/wiki/Polish%E2%80%93Swedish_War_(1600%E2%80%931611)"
 	depth := 1
 	paths := make(map[string]string)
 	found := false

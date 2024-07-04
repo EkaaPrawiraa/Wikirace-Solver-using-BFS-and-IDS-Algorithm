@@ -91,6 +91,7 @@ function swapValues() {
     const temp = inputSearch1.value;
     inputSearch1.value = inputSearch2.value;
     inputSearch2.value = temp;
+    
 
     console.log("Nilai telah ditukar:", startValue, targetValue); // Pemeriksaan apakah nilai telah ditukar
   } else {
